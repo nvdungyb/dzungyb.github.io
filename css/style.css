@@ -1,0 +1,37 @@
+.profile {
+  background-color: #168dc7;
+  color: white;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  /* padding: 0 0 0 600px; */
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.header-info {
+  text-align: center;
+  font-size: 20px;
+}
+
+.left-info h2 {
+  font-size: 30px;
+  margin: 0;
+}
+
+.contact-info {
+  font-size: 15px;
+}
+
+.career-goals p {
+  width: 50%;
+}
+
+.left-info {
+  padding: 0 0 0 500px;
+}
