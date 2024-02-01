@@ -5,24 +5,26 @@
 }
 
 .profile {
-  background-color: #168dc7;
+  /* background-color: #168dc7; */
   color: white;
   font-size: 15px;
   display: flex;
-  flex-direction: column;
-  padding: 0 0 600px 0px;
+  flex-direction: row;
+  /* padding: 0 0 600px 0px; */
 }
 
 img {
-  width: 300px;
-  height: 300px;
+  width: 30%;
+  height: 30%;
   border-radius: 50%;
   margin: 20px;
+  object-fit: cover;
 }
 
 .header-info {
   text-align: center;
   font-size: 20px;
+  /* background-color: #168dc7; */
 }
 
 .left-info h2 {
@@ -39,13 +41,13 @@ img {
 }
 
 .left-info {
-  padding: 0 0 0 500px;
+  padding: 0 0 0 0;
+  background-color: #168dc7;
+  flex: 1;
 }
 
-.contact-us img {
-  width: 40px;
-  height: 40px;
-  margin: 0 0 10px 0;
+.detail-info {
+  padding: 0 0 0 30%;
 }
 
 .contact-us {
@@ -66,7 +68,20 @@ a {
   color: rgb(255, 255, 255);
 }
 
-a:hover {
-  color: rgb(219, 80, 108);
-  font-size: 20px;
+.right-info {
+  background-color: #eeede9;
+  color: black;
+  width: 50%;
+  padding: 3% 0 0 1%;
+  height: 100vh;
+}
+
+.right-info h3 {
+  color: #168dc7;
+  flex: 1;
+}
+
+.right-info a {
+  padding: 0 0 0 5%;
+  color: #168dc7;
 }
