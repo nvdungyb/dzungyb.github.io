@@ -14,8 +14,8 @@
 }
 
 .user-image img {
-  width: 30%;
-  height: 30%;
+  width: 20vh;
+  height: 20vh;
   border-radius: 50%;
   margin: 20px;
   object-fit: cover;
@@ -249,3 +249,5 @@ a {
   padding: 0 0 0 5%;
   color: #168dc7;
 }
+
+/* Trang web này chưa có khả năng giữ nguyên mầu nền khi trang web scollbar */
